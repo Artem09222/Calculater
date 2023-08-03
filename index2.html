@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <div class="calc">
+      <input type="text" class="val" disabled>
+      <div class="clicks-button">
+        <button onclick="itemToDisplay('7')" class="click__button numeric">
+          7
+        </button>
+        <button onclick="itemToDisplay('8')" class="click__button numeric">
+          8
+        </button>
+        <button onclick="itemToDisplay('9')" class="click__button numeric">
+          9
+        </button>
+        <button onclick="delItemFromDisplay()" class="click__button wide">Del</button>
+        <button onclick="itemToDisplay('4')" class="click__button numeric">
+          4
+        </button>
+        <button onclick="itemToDisplay('5')" class="click__button numeric">
+          5
+        </button>
+        <button onclick="itemToDisplay('6')" class="click__button numeric">
+          6
+        </button>
+        <button onclick="itemToDisplay('+')" class="click__button">+</button>
+        <button onclick="itemToDisplay('1')" class="click__button numeric">
+          1
+        </button>
+        <button onclick="itemToDisplay('2')" class="click__button numeric">
+          2
+        </button>
+        <button onclick="itemToDisplay('3')" class="click__button numeric">
+          3
+        </button>
+        <button onclick="itemToDisplay('-')" class="click__button">-</button>
+        <button onclick="itemToDisplay('.')" class="click__button">.</button>
+        <button onclick="itemToDisplay('0')" class="click__button numeric">
+          0
+        </button>
+        <button onclick="itemToDisplay('*')" class="click__button numeric">
+          *
+        </button>
+        <button onclick="itemToDisplay('/')" class="click__button numeric">
+          /
+        </button>
+        <button onclick="reset()" class="click__button wide-span2">=</button>
+        <button class="click__button wide-span2">Recet</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
